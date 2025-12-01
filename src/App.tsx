@@ -396,7 +396,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-[8px] items-center justify-center max-w-[1450px] px-8">
+        <div className="grid grid-cols-3 gap-[8px] max-w-[1500px]">
           {/* Service Cards */}
           {[
             { bg: '#96a497', icon: 'document', title: 'Pelayanan Pemakaman', desc: 'Layanan administrasi dan pengurusan pemakaman', items: ['Penggunaan Perpanjangan Pemakaman', 'Ketersediaan Perpet Makam'] },
